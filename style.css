@@ -32,14 +32,17 @@ h2 {
 .pas {
     padding-left: 200px;
     margin-top: -30px;
+    margin-bottom: 80px;
 }
 
 .cv {
+
     text-decoration: none;
     background-color: aqua;
     cursor: pointer;
-    margin-left: 250px;
-    padding: 10px 40px;
+    font-size: 40px;
+    margin-left: 280px;
+    padding: 20px 50px;
     border-radius: 10px;
 }
 
