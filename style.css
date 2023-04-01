@@ -1,54 +1,49 @@
-section {
-    text-align: justify;
-    display: flex;
-    background-image: url(developer.png);
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
-    margin-top: 30px;
-    margin-left: -10px;
-    margin-right: -10px;
+body {
+    font-family: poppins;
 }
 
 h2 {
-    font-size: 40px;
-    padding-left: 200px;
-    margin-top: 40px;
-}
-
-.rrr {
-    font-size: 70px;
-    padding-left: 200px;
-    margin-bottom: -20px;
-    margin-top: -10px;
-}
-
-.bbb {
-    font-size: 70px;
-    padding-left: 200px;
-    margin-top: 10px;
-
-}
-
-.pas {
-    padding-left: 200px;
     margin-top: -30px;
-    margin-bottom: 80px;
+    font-weight: 600;
+    font-size: 60px;
 }
+
+h1 {
+    font-size: 80px;
+    margin-top: -30px;
+}
+
+.rahman {
+    margin-top: -100px;
+    margin-bottom: -20px;
+}
+
+
 
 .cv {
-
-    text-decoration: none;
     background-color: aqua;
+    text-decoration: none;
     cursor: pointer;
-    font-size: 40px;
-    margin-left: 280px;
-    padding: 20px 50px;
+    margin: 50px;
+    padding: 20px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
-.img-bg {
-    padding-top: 100px;
-    padding-left: 100px;
+.half-width {
+    display: 50%;
+    margin: 0px 200px;
+}
+
+.top-banner {
+    padding-top: 200px;
+    margin-top: -10px;
+    background-color: #fff8f3;
+    display: flex;
+    background-image: url(developer.png), url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    align-items: center;
 }
 
 .bio {
@@ -68,7 +63,11 @@ h2 {
 
 .info {
     display: flex;
-    color: grey;
+
+}
+
+h4 {
+    color: gray;
 }
 
 .info h4 {
@@ -83,7 +82,41 @@ h2 {
 }
 
 p {
+    color: gray;
+    font-size: 20px;
+}
 
-    font-size: 30px;
+h1 {
+    text-align: center;
+}
 
+.box {
+    background-color: rgba(248, 248, 248, 0.455);
+    display: flex;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.mm {
+    color: gray;
+    font-size: 20px;
+}
+
+.js {
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.head {
+    font-size: 40px;
 }
